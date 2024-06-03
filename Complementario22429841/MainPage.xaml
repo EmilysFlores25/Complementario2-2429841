@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Complementario22429841.MainPage">
+
+    <VerticalStackLayout>
+
+        <Image
+                Source="ejercicio2.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+        <Label 
+            
+            Text="Suma!"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+        <Entry x:Name="entry1" Placeholder="Introduce A"/>
+        <Entry x:Name="entry2" Placeholder="Introduce B"/>
+        <Entry x:Name="entryr" Placeholder="Total"/>
+        <Button Text="Calcular"  Clicked="Button_Clicked"/>
+
+    </VerticalStackLayout>
+
+</ContentPage>
